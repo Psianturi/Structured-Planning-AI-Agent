@@ -23,6 +23,11 @@
    ```bash
    touch worker.py
    ```
+   Or
+
+   ```bash
+   echo. > worker.py
+   ```
 
 4. Open the file in VSCode
 
@@ -64,7 +69,7 @@
    worker_agent.chat("Solve the equation x = 123 * (x + 2y + 3)")
    ```
 
-9. Make .env file
+9. Create .env file & add api key
 
    ```python
    OPENAI_API_KEY="<your_api_key>"
